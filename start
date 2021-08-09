@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+BASE=$(pwd)
+source $BASE/.env
+
+      docker-compose up -d 
+      echo "
+===================== 🚀 Done 🚀 ===================
+
+      v.$version
+      Access your new links:
+
+      🌎 Web server: http://localhost/
+
+      ⚙️ PHPMyAdmin: http://localhost:8080
+            user    : root
+            password: ${DB_ROOT_PASSWORD} 
+
+===================== 🚀 Done 🚀 ==================="
+

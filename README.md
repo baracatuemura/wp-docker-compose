@@ -34,7 +34,7 @@ Execute in your terminal, change the *WPFOLDER* to use the name of your project:
 ### Clone repository
 
 ```
-git clone https://github.com/baracatuemura/wordpress-docker-compose.git WPFOLDER
+git clone https://github.com/baracatuemura/wp-docker-compose.git WPFOLDER
 ```
 ### For new WordPress instalation 
 

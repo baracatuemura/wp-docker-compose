@@ -1,0 +1,9 @@
+.env
+wp-app/
+wp-data/
+src/uploads/*
+!src/uploads/.gitkeep
+src/themes/*
+!src/themes/index.php
+src/plugins/*
+!src/plugins/index.php
